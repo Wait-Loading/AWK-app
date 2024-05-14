@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Maven@3
   inputs:
-    mavenPomFile: '/app-name/demo/pom.xml'
+    mavenPomFile: 'github.com/Wait-Loading/AWK-app/blob/main/app-name/demo/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
