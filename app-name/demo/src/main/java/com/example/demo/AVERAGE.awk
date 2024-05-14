@@ -1,0 +1,1 @@
+BEGIN{sum=0; count=0}{for(i=1;i<=NF;i++){sum+=$i; count++}}END{print "Average:", sum/count}

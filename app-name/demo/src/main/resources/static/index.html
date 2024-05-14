@@ -1,0 +1,99 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexing, Parsing, and Interpreting Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #eee;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Lexing, Parsing, and Interpreting Application!</h1>
+        <form id="inputForm">
+            <label for="textInput">Enter Text:</label><br>
+            <textarea id="textInput" name="input" rows="4" cols="50"></textarea><br>
+            <button type="submit">Process</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        document.getElementById('inputForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            var formData = new FormData(this); // Create FormData object from form
+            var textInput = document.getElementById('textInput').value; // Get text input
+            formData.set('input', textInput); // Set text input in FormData
+            fetch('/process', {
+                method: 'POST',
+                body: textInput // Use FormData as request body
+            })
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('result').innerText = data; // Display response in result div
+            })
+            .catch(error => {
+                console.error('Error:', error); // Log any errors
+            });
+        });
+    </script>
+</body>
+</html> -->
