@@ -53,8 +53,8 @@
             <version>3.11.0</version> <!-- Keep this version or try a newer one -->
 
             <configuration>
-                <source>1.8</source> <!-- Change this to your desired Java version, e.g., 17 or 21 -->
-                <target>1.8</target> <!-- Change this to your desired Java version, e.g., 17 or 21 -->
+                <source>20</source> <!-- Change this to your desired Java version, e.g., 17 or 21 -->
+                <target>20</target> <!-- Change this to your desired Java version, e.g., 17 or 21 -->
                 <!-- You can also add other configuration options here if needed -->
             </configuration>
         </plugin>
